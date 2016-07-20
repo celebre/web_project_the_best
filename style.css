@@ -1,0 +1,55 @@
+.header {
+	border-bottom: 2px solid #4b75a4;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+
+}
+.vertical-header-list {
+	margin-top: 0.9em;
+}
+.vertical-header-button {
+	margin-top: 0.7em;
+}
+.button-own-header {
+	margin-left: -40px;
+	background-color: #4b75a4;
+	color: #fff;
+	border:none;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+.button-own-header:hover {
+	background-color: #000;
+	color: #fff;
+}
+.list-own-header {
+	font-size: 1.3em;
+	padding-left: 5px;
+}
+.list-own-header li {
+	margin-left: 10px;
+}
+.list-own-header li a{
+	color: #000;
+	text-decoration: none;
+}
+.list-own-header li a:hover{
+	color: #4b75a4;
+}
+.list-language-own-header {
+	margin-left: -50px;
+}
+.list-language-own-header li{
+	border-right: 1px solid grey;
+	font-size: 1.2em;
+}
+.list-language-own-header li:last-child{
+	border-right: none;
+}
+.list-language-own-header li a{
+	text-decoration: underline;
+}
+// .list-language-own-header a:first-child{
+// 	text-decoration: none;
+// 	color: grey;
+// }
