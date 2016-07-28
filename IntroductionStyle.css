@@ -1,0 +1,120 @@
+﻿body {
+    font-family: "MyriadPro";
+}
+
+.main-info {
+    border-bottom: 1px solid #c6c4c4;; 
+}
+.course-picture {
+    padding: 0;
+    width: 10rem;
+    border-right: 1px solid #c6c4c4
+}
+.course-picture img {
+    width: 100%;
+    height: auto;
+}
+
+.navigation {
+    margin-top: 1em;
+    padding-left: 0;
+}
+
+.navigation * {
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+.navig>li+li:before {
+    color: #1e90ff;
+    content: "\00bb";
+}
+
+.information * {
+    display: inline-block;
+}
+
+.name {
+    color: #4682B4;
+    font-size: 2rem;
+    padding-left: 0.5em;
+}
+
+.value {
+    font-size: 1.6rem;
+    color: #464646;
+}
+
+.level>li {
+    padding-right: 0;
+}
+.information>div {
+    padding-left: 0;
+}
+.information>div>p {
+    margin-bottom: 0;
+}
+
+.price {
+    font-size: 1.8rem;
+    color: darkgreen;
+}
+
+.rate {
+    padding-top: 2rem;
+}
+
+.begin-course {
+    font-size: 1.8rem;
+    background-color: #4b75a4;
+    border: 1px solid #4b75a4;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    height: 4rem;
+    width: 15rem;
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -ms-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+    margin-bottom: 1rem;
+}
+
+.logo-teacher {
+    width: 100%;
+}
+
+.teacher-info {
+    list-style-type: none;
+}
+.photo {
+    border-right: 1px solid #888;
+}
+
+.begin-course:hover {
+    background-color: #000;
+    border: 1px solid #000;
+}
+.content-head {
+    color: #4682B4;
+}
+
+.mytooltip, .mytooltip:hover {
+    text-decoration: none;
+    color: #464646;
+    padding-left: 1rem;
+}
+
+
+.mytooltip + .tooltip > .tooltip-inner {
+      font-size: 1rem;
+}
+.lock {
+    width: 1.5rem;
+}
+
+ul>li>p {
+    margin-bottom: 0.5rem;
+}
+
+li>p>a.tens, li>p>a.tens:hover {
+    padding-left: 0.4rem;
+}

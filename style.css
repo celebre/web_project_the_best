@@ -49,7 +49,7 @@
 .list-language-own-header li a{
 	text-decoration: underline;
 }
-// .list-language-own-header a:first-child{
-// 	text-decoration: none;
-// 	color: grey;
-// }
+.list-language-own-header li:first-child a{
+	text-decoration: none;
+	color: grey;
+}
